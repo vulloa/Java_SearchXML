@@ -21,6 +21,10 @@ public class searchGUI extends JFrame {
 
     JLabel searchTermLabel;
     JLabel searchFolderLabel;
+    JLabel searchingActionLabel;
+
+    JFileChooser searchDirectory;
+
 
     //  constructor
     public searchGUI()  {
