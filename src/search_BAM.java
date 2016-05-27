@@ -13,7 +13,7 @@ public class search_BAM {
     public static void main(String[] args) throws IOException  {
 
         searchGUI s = new searchGUI();
-        s.show();
+        //s.show();
 
         //	file objects
         File folder = new File("\\\\stpnascl2n1\\eaiarch\\PRD\\MES_M680_PO.EAI.ARCHIVE\\20160520\\");
