@@ -12,11 +12,11 @@ public class search_BAM {
 
     public static void main(String[] args) throws IOException  {
 
-        searchGUI s = new searchGUI();
+        //searchGUI s = new searchGUI();
         //s.show();
 
         //	file objects
-        File folder = new File("\\\\stpnascl2n1\\eaiarch\\PRD\\MES_M680_PO.EAI.ARCHIVE\\20160520\\");
+        File folder = new File("\\\\stpnascl2n1\\eaiarch\\PRD\\MES_M680_PO.EAI.ARCHIVE\\20160527\\");
         File[] listOfFiles = folder.listFiles();
 
         // scanner objects
@@ -34,7 +34,7 @@ public class search_BAM {
 
         //	input
         System.out.print("Enter search term: ");
-        search = user_in.nextLine();
+        search = user_in.nextLine().trim();
 
         //	 output
 
